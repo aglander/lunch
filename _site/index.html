@@ -1,1 +1,66 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>Lunch Finder</title>
+	<!-- Path to Framework7 Library CSS-->
+	<link rel="stylesheet" href="css/framework7.ios.min.css">
+	<link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<!-- Path to your custom app styles-->
+	<link rel="stylesheet" href="css/my-app.css">
+</head>
+
+  <body>
+
+  <!-- Status bar overlay for fullscreen mode-->
+      <div class="statusbar-overlay"></div>
+      <!-- Panels overlay-->
+      <div class="panel-overlay"></div>
+      
+      <!-- Views-->
+      <div class="views">
+        <!-- Your main view, should have "view-main" class-->
+        <div class="view view-main">
+          <!-- Top Navbar-->
+          <div class="navbar">
+            <div class="navbar-inner">
+              <!-- We have home navbar without left link-->
+              <div class="center sliding">Lunch Finder</div>
+            </div>
+          </div>
+          <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+          <div class="pages navbar-through toolbar-through">
+            <!-- Page, data-page contains page name-->
+            <div data-page="index" class="page">
+              <!-- Scrollable page content-->
+              <div class="page-content">
+
+                 <div class="list-block cards-list">
+  <ul>
+    
+    <li class="card ks-card-header-pic">
+      <div style="background-image:url(https://lh3.googleusercontent.com/WYufBwGcN_ltMlRM9FQFcx2OtJ8oMOHC4SochLR5IcLQwDVg3fJm93WPhY1lQxJWIhO_byweRdUiUm9OEsoqHVO2EwUJz1d-ERvg-vsnKFqJdXOA5WeLFcT8MmcoqWojt5QPZweq19V_EgT5yUAqF_dH2A8r3eDKbfJjfn3Qtc1wCaoqf4Io0wZqwMZXbROFGFJwmNU4dg-RR0iNjePwV8myKXKk6QC4unhoiHWgDNV_CTrq7vMEaHmJQYWrFktIpFcoH3Lt6y2lF6_K_FssIS7SlTHAkfwN0BZhUCcaVDBUaaOIAka7fUAfqyrRL34GklInBZ8ZgQxg5rliJ84tCtC1l_MhD_FE3fbsVNt6w3T_2p5twbhBBfEcgqdEWxo5iSFIMYm68I7hrq79UmJ3a9zdocoDvBU5dsCm60_GwublU1itsPtNN9wzqyzwQzqW8RrKTFMW15VYs-YbZ7N8owcH2Za57yr1wcTK7al7b8d9jbTgbiUgTmN2FRHecfGDikCE_Q-4wclPxjEd-xlo8uyV2r-eeAKcRxnMSNs=w1219-h914-no)" valign="bottom" class="card-header color-white no-border">Gerüchteküche</div>
+      <div class="card-footer"><a href="#" class="link"><i class="fa fa-star-o"></i></a><a href="#" class="link">Details</a></div>
+    </li>
+    
+</div>
+
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+
+  </body>
+
+</html>
