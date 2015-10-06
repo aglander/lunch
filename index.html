@@ -6,7 +6,7 @@ layout: default
   <ul>
     {% for post in site.posts %}
     <li class="card ks-card-header-pic">
-      <div style="background-image:url({{ post.image }})" valign="bottom" class="card-header color-white no-border">{{ post.title }}</div>
+      <div style="background-image:url({{ post.image }})" valign="bottom" class="card-header color-white no-border"><span>{{ post.title }}</span></div>
       <div class="card-footer"><a href="#" class="link"><i class="fa fa-star-o"></i></a><a href="#" class="link">Details</a></div>
     </li>
     {% endfor %}
