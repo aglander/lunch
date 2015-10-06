@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "L'Osteria"
+date:   2015-10-06 11:14:00
+categories: pizza pasta
+image: http://cloud.gastroguide.de/user_galerie/13/02/04/185232/f1360017446.jpg
+---
